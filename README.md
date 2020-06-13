@@ -14,6 +14,10 @@ Clone the repo and execute the following command in the repo directory
 composer install
 ```
 
+## Environment Variables
+
+Make sure you create a .env file in the root folder and store any AWS or access keys here, do not store these keys in any other file or in source files.
+
 ## Testing the api locally
 
 Execute the following commands to host the API locally using PHP's built in web server.
