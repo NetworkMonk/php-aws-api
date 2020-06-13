@@ -1,0 +1,7 @@
+vendor/
+.env
+.env.local
+.env.production
+Config
+config.inc.php
+cache/
