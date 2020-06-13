@@ -1,0 +1,16 @@
+{
+    "name": "php-aws-api/api",
+    "description": "Starting point for API development using PHP / AWS",
+    "authors": [
+        {"name": "James Plant", "homepage": "https://github.com/NetworkMonk/"}
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^2.4",
+        "aws/aws-sdk-php": "^3.140"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
